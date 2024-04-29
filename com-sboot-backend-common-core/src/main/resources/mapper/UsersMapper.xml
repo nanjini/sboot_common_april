@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sboot.backend.common.business.mapper.UsersMapper">
+
+    <insert id="insert" parameterType="com.sboot.backend.common.business.model.Users">
+        INSERT INTO users (email, name) VALUES(#{email}, #{name})
+    </insert>
+
+    <select id="getUser" parameterType="String" resultType="com.sboot.backend.common.business.model.Users">
+        SELECT * FROM users WHERE email = #{email} AND delete_dt IS NULL
+    </select>
+
+    <select id="getUserAll" resultType="com.sboot.backend.common.business.model.Users">
+        SELECT * FROM users WHERE delete_dt IS NULL
+    </select>
+
+    <update id="updateByEmail" parameterType="com.sboot.backend.common.business.model.Users" >
+        UPDATE users
+        SET name = #{name}
+        WHERE email = #{email} AND delete_dt IS NULL
+    </update>
+
+    <update id="softDeleteByEmail" parameterType="com.sboot.backend.common.business.model.Users" >
+        UPDATE users
+        SET use_flag = #{use_flag}, delete_dt = #{delete_dt}
+        WHERE email = #{email} AND delete_dt IS NULL
+    </update>
+</mapper>

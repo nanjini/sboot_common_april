@@ -1,0 +1,44 @@
+2024-04-29 17:03:30,430 [INFO ] [main] o.s.b.StartupInfoLogger: Starting CommonApiApplication using Java 21.0.2 with PID 3024 (C:\Users\dev\Documents\20. study\sboot\study_20240422\sboot-backend-common\com-sboot-backend-common-api\target\classes started by dev in C:\Users\dev\Documents\20. study\sboot\study_20240422\sboot-backend-common)
+2024-04-29 17:03:30,454 [INFO ] [main] o.s.b.SpringApplication: The following 1 profile is active: "local"
+2024-04-29 17:03:31,872 [INFO ] [main] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor: Post-processing PropertySource instances
+2024-04-29 17:03:31,876 [INFO ] [main] c.u.j.EncryptablePropertySourceConverter: Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2024-04-29 17:03:31,878 [INFO ] [main] c.u.j.EncryptablePropertySourceConverter: Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2024-04-29 17:03:31,878 [INFO ] [main] c.u.j.EncryptablePropertySourceConverter: Skipping PropertySource servletContextInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2024-04-29 17:03:31,879 [INFO ] [main] c.u.j.EncryptablePropertySourceConverter: Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2024-04-29 17:03:31,880 [INFO ] [main] c.u.j.EncryptablePropertySourceConverter: Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2024-04-29 17:03:31,880 [INFO ] [main] c.u.j.EncryptablePropertySourceConverter: Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2024-04-29 17:03:31,881 [INFO ] [main] c.u.j.EncryptablePropertySourceConverter: Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-04-29 17:03:31,881 [INFO ] [main] c.u.j.EncryptablePropertySourceConverter: Converting PropertySource class path resource [common-core-application-local.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+2024-04-29 17:03:31,882 [INFO ] [main] c.u.j.EncryptablePropertySourceConverter: Converting PropertySource class path resource [application-local.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+2024-04-29 17:03:31,907 [INFO ] [main] c.u.j.f.DefaultLazyPropertyFilter: Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2024-04-29 17:03:31,928 [INFO ] [main] c.u.j.r.DefaultLazyPropertyResolver: Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2024-04-29 17:03:31,932 [INFO ] [main] c.u.j.d.DefaultLazyPropertyDetector: Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2024-04-29 17:03:32,523 [INFO ] [main] o.s.b.w.e.t.TomcatWebServer: Tomcat initialized with port 8181 (http)
+2024-04-29 17:03:32,537 [INFO ] [main] o.a.j.l.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8181"]
+2024-04-29 17:03:32,539 [INFO ] [main] o.a.j.l.DirectJDKLog: Starting service [Tomcat]
+2024-04-29 17:03:32,539 [INFO ] [main] o.a.j.l.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-04-29 17:03:32,607 [INFO ] [main] o.a.j.l.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2024-04-29 17:03:32,609 [INFO ] [main] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 2044 ms
+2024-04-29 17:03:32,842 [INFO ] [main] c.u.j.e.DefaultLazyEncryptor: Found Custom Encryptor Bean org.jasypt.encryption.pbe.PooledPBEStringEncryptor@6e243175 with name: jasyptStringEncryptor
+2024-04-29 17:03:34,175 [WARN ] [main] o.s.b.a.AutoConfigurationPackages$BasePackages: @EnableAutoConfiguration was declared on a class in the default package. Automatic @Repository and @Entity scanning is not enabled.
+2024-04-29 17:03:34,896 [INFO ] [main] o.a.j.l.DirectJDKLog: Starting ProtocolHandler ["http-nio-8181"]
+2024-04-29 17:03:34,949 [INFO ] [main] o.s.b.w.e.t.TomcatWebServer: Tomcat started on port 8181 (http) with context path ''
+2024-04-29 17:03:34,954 [INFO ] [main] c.u.j.c.RefreshScopeRefreshedEventListener: Refreshing cached encryptable property sources on ServletWebServerInitializedEvent
+2024-04-29 17:03:34,955 [INFO ] [main] c.u.j.c.CachingDelegateEncryptablePropertySource: Property Source systemProperties refreshed
+2024-04-29 17:03:34,956 [INFO ] [main] c.u.j.c.CachingDelegateEncryptablePropertySource: Property Source systemEnvironment refreshed
+2024-04-29 17:03:34,956 [INFO ] [main] c.u.j.c.CachingDelegateEncryptablePropertySource: Property Source random refreshed
+2024-04-29 17:03:34,957 [INFO ] [main] c.u.j.c.CachingDelegateEncryptablePropertySource: Property Source Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' refreshed
+2024-04-29 17:03:34,957 [INFO ] [main] c.u.j.c.CachingDelegateEncryptablePropertySource: Property Source class path resource [common-core-application-local.properties] refreshed
+2024-04-29 17:03:34,957 [INFO ] [main] c.u.j.c.CachingDelegateEncryptablePropertySource: Property Source class path resource [application-local.properties] refreshed
+2024-04-29 17:03:34,958 [INFO ] [main] c.u.j.EncryptablePropertySourceConverter: Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2024-04-29 17:03:34,958 [INFO ] [main] c.u.j.EncryptablePropertySourceConverter: Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2024-04-29 17:03:34,959 [INFO ] [main] c.u.j.EncryptablePropertySourceConverter: Converting PropertySource servletContextInitParams [org.springframework.web.context.support.ServletContextPropertySource] to EncryptableEnumerablePropertySourceWrapper
+2024-04-29 17:03:34,974 [INFO ] [main] o.s.b.StartupInfoLogger: Started CommonApiApplication in 4.99 seconds (process running for 6.502)
+2024-04-29 17:09:30,409 [INFO ] [http-nio-8181-exec-1] o.a.j.l.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-29 17:09:30,410 [INFO ] [http-nio-8181-exec-1] o.s.w.s.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2024-04-29 17:09:30,411 [INFO ] [http-nio-8181-exec-1] o.s.w.s.FrameworkServlet: Completed initialization in 1 ms
+2024-04-29 17:09:30,482 [INFO ] [http-nio-8181-exec-1] c.s.b.c.a.c.ProfileController: uid:AABB
+2024-04-29 17:09:35,782 [INFO ] [http-nio-8181-exec-3] c.s.b.c.a.c.ProfileController: name:Mike
+2024-04-29 17:09:35,782 [INFO ] [http-nio-8181-exec-3] c.s.b.c.a.c.ProfileController: sex:MALE
+2024-04-29 17:09:41,871 [INFO ] [http-nio-8181-exec-4] c.s.b.c.a.c.ProfileController: name:Mike
+2024-04-29 17:09:41,873 [INFO ] [http-nio-8181-exec-4] c.s.b.c.a.c.ProfileController: sex:MALE
